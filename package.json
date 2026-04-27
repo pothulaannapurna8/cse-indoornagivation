@@ -2,7 +2,7 @@
   "name": "indoor-campus-navigation",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://pothulaannapurna8.github.io/cse-indoornagivation",
+  "homepage": ".",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
