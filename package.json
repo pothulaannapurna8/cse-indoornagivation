@@ -2,7 +2,7 @@
   "name": "indoor-campus-navigation",
   "version": "1.0.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://pothulaannapurna8.github.io/cse-indoornagivation",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -14,6 +14,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "serve": "serve -s build -l 3000",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "deploy:github": "npm run build && gh-pages -d build",
     "deploy:netlify": "npm run build && netlify deploy --prod --dir=build",
     "deploy:vercel": "vercel --prod"
   },
@@ -34,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
